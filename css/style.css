@@ -75,3 +75,22 @@ header {
   max-width: 600px;
   font-size: 2em;
 }
+
+.translation {
+    display: inline-block;
+    border: 1px solid white;
+    background: white;
+    position: absolute;
+    right: 0;
+    top: 52.5vh;
+    margin-right: 1%;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .translation {
+    top: 88vh;
+  }
+}
