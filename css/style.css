@@ -160,6 +160,45 @@ a {
   display: block
 }
 
+/* ---- EXPERIENCE ---- */
+.experience-container {
+  height: 100vh;
+  /*display: flex;*/
+}
+
+.experience-flex {
+  display: flex;
+  height: 100vh
+}
+
+.eduskills {
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.education {
+  background: #F4F8F6;
+  flex:1;
+}
+
+.skills {
+  background: #AED1BC;
+  flex:1;
+}
+
+.experience {
+  flex:1;
+  background: #D7E8DE
+}
+
+.exp {
+  border: 10px solid white;
+  padding: 2%;
+}
+
+
+
 /* ---- CONTACT ---- */
 
 .contact-container {
@@ -190,8 +229,13 @@ a {
   .work-container {
     height: 100%;
   }
-  .projects {
+  .projects, .experience-flex {
     flex-direction: column;
   }
+
+  .eduskills {
+    flex: 2;
+  }
+
 
 }
