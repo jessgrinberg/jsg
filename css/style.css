@@ -98,13 +98,13 @@ a {
 /* ---- WORK SECTION ---- */
 
 .work-container {
- /* display: flex;*/
   height: 100vh;
 }
 
 .projects {
   display: flex;
 }
+
 .work{
   flex: 1;
   padding: 0% 5%;
@@ -160,14 +160,38 @@ a {
   display: block
 }
 
+/* ---- CONTACT ---- */
+
+.contact-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.contact-container h2 {
+  font-size: 5em;
+}
+
+.contact-container h3 {
+  font-size: 2.5em;
+}
+
+.contact-container a {
+  font-size: 1.5em;
+}
 /* ---- MEDIA QUERIES ---- */
 
 @media (max-width: 768px) {
   .translation {
     top: 89vh;
   }
-
-  .projects{
+  .work-container {
+    height: 100%;
+  }
+  .projects {
     flex-direction: column;
   }
+
 }
