@@ -71,7 +71,7 @@ a {
 .introBox h1 {
   text-transform: uppercase;
   line-height: 2em;
-  color: rgba(250, 107, 99,0.5);
+  color: rgba(0, 0, 0,0.9);
   font-style: thin;
 }
 
@@ -178,18 +178,18 @@ a {
 }
 
 .education {
-  background: #F4F8F6;
+  background: #F6D8D0;
   flex:1;
 }
 
 .skills {
-  background: #AED1BC;
+  background: #D3A69B;
   flex:1;
 }
 
 .experience {
   flex:1;
-  background: #D7E8DE
+  background: #FFF1ED;
 }
 
 .exp {
