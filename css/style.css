@@ -50,8 +50,12 @@ a {
 }
 
 .navFlex ul a:hover {
-  color: #FA6B63;
+  color: rgba(0,0,0,0.5);
 }
+
+#menu-toggle {display: none;}
+  
+.label-toggle {display: none;}
 
 /* ---- INTRO ---- */
 .intro {
@@ -59,7 +63,6 @@ a {
   height: 75vh;
   border: 10px solid white;
   margin: 0 auto;
-
 }
 
 .introBox {
@@ -161,9 +164,8 @@ a {
 }
 
 /* ---- EXPERIENCE ---- */
-.experience-container {
+/*.experience-container {
   height: 100vh;
-  /*display: flex;*/
 }
 
 .experience-flex {
@@ -197,7 +199,24 @@ a {
   padding: 2%;
 }
 
+.exp ul > * {
+  padding: 10px 0;
+}
 
+.experience-flex h3 {
+  padding: 15px 0;
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.experience-flex h4 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.experience-flex h5 {
+  font-style: italic;
+}*/
 
 /* ---- CONTACT ---- */
 
@@ -210,16 +229,31 @@ a {
 }
 
 .contact-container h2 {
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .contact-container h3 {
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .contact-container a {
   font-size: 1.5em;
 }
+
+.horizontal-line {
+  display: block;
+  height: 1px;
+  background: #313131;
+  margin: 20px auto;
+  width: 30px;
+  opacity: .3;
+}
+
+.social-links {
+  margin: 50px auto;
+}
+
+
 /* ---- MEDIA QUERIES ---- */
 
 @media (max-width: 768px) {
