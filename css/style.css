@@ -164,19 +164,20 @@ a {
 }
 
 /* ---- EXPERIENCE ---- */
-/*.experience-container {
-  height: 100vh;
-}
+.experience-container {
+/*  height: 100vh;
+*/}
 
 .experience-flex {
   display: flex;
-  height: 100vh
-}
+/*  height: 100vh
+*/}
 
 .eduskills {
-  flex:1;
+  flex: 2;
+/*  flex:1;
   display: flex;
-  flex-direction: column;
+  flex-direction: column;*/
 }
 
 .education {
@@ -196,7 +197,7 @@ a {
 
 .exp {
   border: 10px solid white;
-  padding: 2%;
+  padding: 2.5em 2% 3.5em;
 }
 
 .exp ul > * {
@@ -216,7 +217,7 @@ a {
 
 .experience-flex h5 {
   font-style: italic;
-}*/
+}
 
 /* ---- CONTACT ---- */
 
@@ -253,6 +254,10 @@ a {
   margin: 50px auto;
 }
 
+.social-links a:nth-child(1), .social-links a:nth-child(2) {
+  padding-right: 10px;
+}
+
 
 /* ---- MEDIA QUERIES ---- */
 
@@ -269,6 +274,10 @@ a {
 
   .eduskills {
     flex: 2;
+  }
+
+  .exp {
+    border: 0px;
   }
 
 
