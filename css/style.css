@@ -57,7 +57,7 @@ h3 {
   /*padding-left: 5%;*/
 }
 
-.navFlex ul a, .social-links a, .translation a{
+.navFlex ul a, .social-links a{
   color: rgba(0,0,0,0.6);
   transition: all 0.5s ease;
 }
@@ -125,12 +125,13 @@ nav .navFlex {
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: .1em;
-  transition: all 0.5s;
+  transition: all 1s;
 }
 
 .translation:hover{
   background: black;
   color: white;
+  transform: scale(1.05)
 }
 
 
@@ -171,6 +172,19 @@ nav .navFlex {
   text-transform: uppercase;
   font-size: 1.3em;
   color: white;
+  transition: all 1s;
+}
+
+.work-details h3:hover {
+  padding-left: .25em;
+}
+
+.work-details .github {
+  transition: all .5s;
+}
+
+.work-details .github:hover {
+  color: rgba(0,0,0,0.7)
 }
 
 .work-details {
@@ -189,7 +203,11 @@ nav .navFlex {
 }
 
 .work-details > * {
-  padding: 10px 0;
+  padding: 1em 0;
+}
+
+.work-details .tags {
+  font-style: italic;
 }
 
 .more-projects {
@@ -348,7 +366,7 @@ nav .navFlex {
   }
 
   .introBox {
-    padding: 25vh 2%;
+    padding: 25vh 5%;
   }
 
   .introBox p {
@@ -375,7 +393,7 @@ nav .navFlex {
     list-style-type: none;
     opacity: 0;
     text-align: center;
-    transition: all 1s ease;
+    transition: all .5s ease;
     width: 100%;
     visibility: hidden;
     padding: 0;

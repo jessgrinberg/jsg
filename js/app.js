@@ -2,12 +2,6 @@
 $(".navFlex a").on("click", function () {
     $(".navFlex a.active").removeClass("active");
     $(this).addClass("active");
-     $('#menu-toggle').prop('checked', false); 
-    // $(".navFlex #menu-toggle:checked ~ ul ").css({ opacity: "0" });
-     console.log('click')
+    //close responsive navbar when a link is clicked
+    $('#menu-toggle').prop('checked', false); 
 });
-
-// $('.navFlex a').on("click", function () {
-//   $('#menu-toggle').prop('checked', false); 
-//     console.log('click2')
-// })
