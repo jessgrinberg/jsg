@@ -10,14 +10,14 @@
 </head>
 <body>
 
-<header>
+<header id="home">
 	<!-- NAVBAR 
     =========================================== -->
 	<nav class="navBar">
-		<div class="navFlex">
+		<div class="navFlex" id="navActive">
 			<div class="nav-title">JG</div>
 			<ul>	
-				<li><a href="#home">Home</a></li>
+				<li><a class="active" href="#home">Home</a></li>
 				<li><a href="#work">Work</a></li>
 				<li><a href="#experience">Experience</a></li>
 				<li><a href="#contact">Contact</a></li>
@@ -150,17 +150,18 @@
 <section class="contact-container" id="contact">
 	<h2>Get in touch</h2>
 	<span class="horizontal-line"></span>
-	<h3>jessgrinberg@gmail.com</h3>
+	<a class="email" href="">jessgrinberg@gmail.com</a>
 	<div class="social-links">
-		<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i>
-</a>
-		<a href=""><i class="fa fa-github" aria-hidden="true"></i>
-</a>
-		<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i>
-</a>
+		<a href="https://www.linkedin.com/in/jessgrinberg/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+		<a href="https://github.com/jessgrinberg" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+		<a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
 	</div>
 </section>
 
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

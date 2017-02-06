@@ -54,13 +54,14 @@ h3 {
   padding-left: 5%;
 }
 
-.navFlex ul a, .social-links a, .translation a {
-  color: black;
+.navFlex ul a, .social-links a, .translation a{
+  color: rgba(0,0,0,0.6);
   transition: all 0.5s ease;
 }
 
-.navFlex ul a:hover, .social-links a:hover, .translation a:hover {
-  color: rgba(0,0,0,0.5);
+.navFlex ul a:hover, .social-links a:hover, .translation a:hover,
+.navFlex ul a.active {
+  color: black;
 }
 
 #menu-toggle {display: none;}
@@ -79,18 +80,6 @@ h3 {
   margin: 0 auto;
   max-width: 960px;
   padding: 35vh 2%;
-/*font-family: 'Playfair Display', serif;
-font-family: 'Sahitya', serif;
-font-family: 'Alegreya', serif;
-font-family: 'Scheherazade', serif;*/
-
-/*font-family: 'Old Standard TT', serif;*/
-/*font-family: 'Cormorant Garamond', serif;
-*//*font-family: 'Amiri', serif;
-font-family: 'Rufina', serif;
-
-
-font-family: 'Cardo', serif;*/
 }
 
 .introBox h1 {
@@ -174,10 +163,6 @@ font-family: 'Cardo', serif;*/
   color: white;
 }
 
-/*.work-details img {
-  width: 2em;
-}*/
-
 .work-details i {
   font-size: 2em;
 }
@@ -206,7 +191,7 @@ font-family: 'Cardo', serif;*/
   padding: 20px;
   display: block;
   letter-spacing: 0.15em;
-  transition: all 0.3s;
+  transition: all .3s;
 }
 
 .more-projects a:hover {
@@ -250,7 +235,12 @@ font-family: 'Cardo', serif;*/
   border: 10px solid white;
   padding: 2.5em 2% 3.5em;
   font-size: 1.1em;
-  line-height: 1.2
+  line-height: 1.2;
+  transition: border 1s;
+}
+
+.exp:hover {
+  border: 10px solid rgba(0, 0, 0,0.1);
 }
 
 .exp h4 {
@@ -289,12 +279,12 @@ font-family: 'Cardo', serif;*/
   font-size: 4em;
 }
 
-.contact-container h3 {
+.contact-container .email {
   font-size: 2em;
   font-weight: 500;
 }
 
-.contact-container a {
+.contact-container .social-links a {
   font-size: 1.5em;
 }
 
@@ -334,7 +324,11 @@ font-family: 'Cardo', serif;*/
   }
 
   .exp {
-    border: 0px;
+    border: 10px solid rgba(0, 0, 0,0);
+  }
+
+  .exp:hover {
+     border: 10px solid rgba(0, 0, 0,0.1);
   }
 
   .introBox {
@@ -350,8 +344,12 @@ font-family: 'Cardo', serif;*/
   font-size: 3em;
   }
 
-  .contact-container h3 {
+  .contact-container .email {
     font-size: 1.5em;
+  }
+
+  .contact-container .social-links a {
+    font-size: 1.25em;
   }
 
 }
