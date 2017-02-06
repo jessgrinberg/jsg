@@ -4,10 +4,18 @@
 header {
   height: 100vh;
 }
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
 
 a {
   text-decoration: none;
   color: black;
+}
+
+h3 {
+  letter-spacing: .1em;
+  font-weight: 700;
 }
 
 /* ---- NAVIGATION ---- */
@@ -21,6 +29,7 @@ a {
   min-width: 100%;
   height: 20vh;
   background: white;
+  letter-spacing: 0.15em;
 }
 
 .nav-title {
@@ -70,6 +79,18 @@ a {
   margin: 0 auto;
   max-width: 960px;
   padding: 35vh 2%;
+/*font-family: 'Playfair Display', serif;
+font-family: 'Sahitya', serif;
+font-family: 'Alegreya', serif;
+font-family: 'Scheherazade', serif;*/
+
+/*font-family: 'Old Standard TT', serif;*/
+/*font-family: 'Cormorant Garamond', serif;
+*//*font-family: 'Amiri', serif;
+font-family: 'Rufina', serif;
+
+
+font-family: 'Cardo', serif;*/
 }
 
 .introBox h1 {
@@ -82,6 +103,8 @@ a {
 .introBox p {
   max-width: 600px;
   font-size: 2em;
+  line-height: 1.325em;
+
 }
 
 .translation {
@@ -97,7 +120,9 @@ a {
     font-family: 'Oswald', sans-serif;
     cursor: pointer;
     text-transform: uppercase;
+    letter-spacing: .1em;
 }
+
 
 /* ---- WORK SECTION ---- */
 
@@ -146,6 +171,10 @@ a {
   width: 2em;
 }
 
+.work-details  a {
+  font-weight: 700;
+}
+
 .work-details > * {
   padding: 10px 0;
 }
@@ -156,12 +185,14 @@ a {
   display: flex;
   align-items:center;
   justify-content: center;
+  font-size: 1.1em;
 }
 
 .more-projects a {
-  border: 2px solid #CDC3B0;
+  border: 3px solid #CDC3B0;
   padding: 20px;
-  display: block
+  display: block;
+  letter-spacing: 0.15em;
 }
 
 /* ---- EXPERIENCE ---- */
@@ -199,6 +230,12 @@ a {
 .exp {
   border: 10px solid white;
   padding: 2.5em 2% 3.5em;
+  font-size: 1.1em;
+  line-height: 1.2
+}
+
+.exp h4 {
+  font-weight: 700;
 }
 
 .exp ul > * {
@@ -212,7 +249,6 @@ a {
 }
 
 .experience-flex h4 {
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -236,6 +272,7 @@ a {
 
 .contact-container h3 {
   font-size: 2em;
+  font-weight: 500;
 }
 
 .contact-container a {
@@ -283,6 +320,18 @@ a {
 
   .introBox {
     padding: 25vh 2%;
+  }
+
+  .introBox p {
+    font-size: 1.75em;
+  }
+
+  .contact-container h2 {
+  font-size: 3em;
+  }
+
+  .contact-container h3 {
+    font-size: 1.5em;
   }
 
 }
