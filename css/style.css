@@ -404,6 +404,16 @@ nav .navFlex {
 
 /* ---- MEDIA QUERIES ---- */
 
+/*@media (max-width: 430px) {
+  .introBox p {
+    max-width: 400px;
+    font-size: 1.5em;
+  }
+  .introBox {
+    padding: 20vh 5%;
+  }
+}*/
+
 @media (max-width: 768px) {
   .translation {
     top: 89vh;
@@ -428,12 +438,16 @@ nav .navFlex {
   }
 
   .introBox {
-    padding: 25vh 5%;
+    padding: 30vh 5%;
   }
 
   .introBox p {
-    max-width: 400px;
-    font-size: 1.75em;
+    max-width: 500px;
+    font-size: 2em;
+  }
+
+  .translation {
+    top: 91vh;
   }
 
   .contact-container h2 {
@@ -446,6 +460,10 @@ nav .navFlex {
 
   .contact-container .social-links a {
     font-size: 1.25em;
+  }
+
+  .navFlex, .navBar {
+    height: 15vh;
   }
 
   .navFlex ul {
@@ -469,8 +487,8 @@ nav .navFlex {
   }
 
   .nav-title {
-    padding: 0 2%;
-    margin: 1.75em 0;
+    padding: 0 4%;
+    margin: 1.1em 0;
   }
 
   nav #menu-toggle:checked ~ ul {
@@ -485,15 +503,15 @@ nav .navFlex {
     display: block;
     float: right;
     height: 25px;
-    margin-top: 3.5em;
-    margin-right: 2%;
+    margin-top: 2.25em;
+    margin-right: 4%;
     width: 35px;
   }
 
   nav .navFlex {
     display: block;
     padding: 0 0%;
-    height: 20vh;
+    height: 15vh;
   }
 
   .project-header h1 {
@@ -521,7 +539,16 @@ nav .navFlex {
 @media (max-width: 430px) {
   .introBox p {
     max-width: 400px;
-    font-size: 1.5em;
+    font-size: 1.4em;
+  }
+  .introBox {
+    padding: 20vh 5%;
+  }
+
+  .translation {
+    top: 88.75vh;
   }
 }
+
+
 
