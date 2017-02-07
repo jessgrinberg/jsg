@@ -503,7 +503,7 @@ nav .navFlex {
 
   .project-header a {
     border: 1px solid rgba(0,0,0,0.6);
-    margin-left: 1em;
+    margin: .75em 0 0 1em;
     font-size: 1.1em;
   }
 
